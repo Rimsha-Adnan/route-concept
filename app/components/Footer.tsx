@@ -3,7 +3,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div className="flex flex-col bg-zinc-200 md:flex-row text-black justify-center w-full min-h-96 p-8 md:p-12 print:hidden">
+    <div className="flex flex-col bg-zinc-200 md:flex-row text-black justify-center w-full min-h-96 mt-10 p-8 md:p-12 print:hidden">
       <div className="flex flex-col bg-zinc-200 text-left mb-8 md:mb-0 md:ml-[80px]  text-zinc-800">
         <h1 className="font-bold font-[poppins] text-xl">Core Courses</h1>
         <ul className="space-y-3 mt-5">
