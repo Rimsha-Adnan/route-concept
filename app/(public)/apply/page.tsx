@@ -3,7 +3,7 @@ import React from 'react';
 
 function page() {
   return (
-    <main className="flex flex-col items-center justify-center mb-20 h-auto min-h-[700px]">
+    <main className="flex  bg-white flex-col items-center justify-center mb-20 h-auto min-h-[700px]">
       <div className="z-10 mx-4 my-10 w-full max-w-lg lg:max-w-2xl flex flex-col items-center justify-center gap-5 rounded bg-opacity-30 px-4 py-8 text-black shadow-lg backdrop-blur-3xl sm:px-8 md:p-16">
         <h2 className="text-center text-xl sm:text-2xl lg:text-3xl tracking-widest text-sky-800 font-medium font-[poppins]">
           Before continuing to the application process, subscribe on these social media platforms
@@ -28,7 +28,7 @@ function page() {
         </div>
       </div>
       
-      {/* Social Media Step Indicator */}
+      
       <div className="w-[90%] lg:w-[800px] mx-auto mt-6 flex flex-wrap justify-center gap-5">
         {[
           { step: "1", platform: "Facebook" },
